@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 // import { BrowserRouter } from "react-router-dom";
 
 const NoteState = (props) => {
-  const host = "http://localhost:5000";
+  const host = "https://zany-erin-coati-wear.cyclic.app";
   const navigate=useNavigate();
   const notesInitial = [];
 // const AUTH_TOKEN= "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjMyNGMxY2Y0NDc4MWRhOGU5ZWEwYzlmIn0sImlhdCI6MTY2MzQyODQ2Nn0.W6FxekqLphyd4G73V6LyYCY8uEFh2YKA71rF8Df4fws";
